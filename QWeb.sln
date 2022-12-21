@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QWeb", "QWeb.csproj", "{7E26FF6A-BEAF-4DDD-BA57-15990CB57623}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QModel", "..\QModel\QModel.csproj", "{1C261BA7-2912-4BB1-B52D-894A511C6401}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{7E26FF6A-BEAF-4DDD-BA57-15990CB57623}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E26FF6A-BEAF-4DDD-BA57-15990CB57623}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E26FF6A-BEAF-4DDD-BA57-15990CB57623}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C261BA7-2912-4BB1-B52D-894A511C6401}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C261BA7-2912-4BB1-B52D-894A511C6401}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C261BA7-2912-4BB1-B52D-894A511C6401}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C261BA7-2912-4BB1-B52D-894A511C6401}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
