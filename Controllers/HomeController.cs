@@ -1,5 +1,6 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using QModel;
 using QWeb.Models;
 
 namespace QWeb.Controllers;
@@ -12,6 +13,8 @@ public class HomeController : Controller
     {
         _logger = logger;
     }
+
+    public static string Name => QModelClass.GetName();
 
     public IActionResult Index()
     {
